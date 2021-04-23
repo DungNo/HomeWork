@@ -1,0 +1,41 @@
+
+.container{
+    width: 940px;
+    position: relative;
+    z-index: 1;
+}
+.container .img{
+    width: 100%;
+    border-radius: 10px;
+    z-index: 2;
+}
+.container a{
+    width: 176px;
+    height: 36px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    z-index: 3;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: 1.3333;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .avata{
+    position: absolute;
+    background-color: white;
+    text-decoration: none;
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    top: 187px;
+    right: 380px;
+    padding: 5px;
+} 
