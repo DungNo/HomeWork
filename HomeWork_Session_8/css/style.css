@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    width: 700px;
+    height: 800px;
+    position: relative;
+    justify-content: space-between;
+    align-content: space-between;
+    margin-left: 200px;
+}
+.bai1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.bai2{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.bai3{
+    position: absolute;
+    bottom: 200px;
+    left: 0px;
+}
+.bai4{
+    position: absolute;
+    bottom: 200px;
+    right: 0px;
+}
+#div1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin-top: 20px;
+}
+#div2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 20px;
+}
+#div3{
+    width: 150px;
+    height: 100px;
+    background-color:cyan;
+    margin-top: 20px;
+}
+#div32{
+    width: 150px;
+    height: 100px;
+    background-color:coral;
+    margin-top: 20px;
+}
+#div4{
+    width: 150px;
+    height: 220px;
+    background-color:deeppink;
+    margin-top: 20px;
+    font-size: 14px;
+}
